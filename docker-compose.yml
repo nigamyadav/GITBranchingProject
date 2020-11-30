@@ -1,0 +1,28 @@
+<<<<<<< HEAD
+version: "2"
+
+services:
+
+  web:
+
+    build: .
+
+    ports:
+
+      - "5000:5000"
+
+  redis:
+
+    image: "redis:alpine"
+=======
+version: '3.4'
+
+services:
+  simplilearndevopscertification:
+    image: simplilearndevopscertification
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 5000:5000
+>>>>>>> d2489a0029274b1c0239e87fd59993991a99118b
