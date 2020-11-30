@@ -7,6 +7,10 @@ redis
 flask==1.1.2
 gunicorn==20.0.4
 >>>>>>> d2489a0029274b1c0239e87fd59993991a99118b
+<<<<<<< HEAD
 
 hii this is for test requrements
 new change  
+=======
+this is for test feature 2
+>>>>>>> Feature2
